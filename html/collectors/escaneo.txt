@@ -1,0 +1,33 @@
+19:54:17.218958 IP6 fe80::86aa:9cff:fee8:4a57 > fe80::c124:cc7e:abaa:fee0: ICMP6, neighbor solicitation, who has fe80::c124:cc7e:abaa:fee0, length 32
+19:54:17.219070 IP6 fe80::c124:cc7e:abaa:fee0 > fe80::86aa:9cff:fee8:4a57: ICMP6, neighbor advertisement, tgt is fe80::c124:cc7e:abaa:fee0, length 24
+19:54:17.430512 IP 192.168.1.1 > all-systems.mcast.net: igmp query v2 [max resp time 10]
+19:54:17.430868 IP 192.168.1.1 > all-systems.mcast.net: igmp query v2 [max resp time 10]
+19:54:17.430961 IP6 fe80::86aa:9cff:fee8:4a57 > ip6-allnodes: HBH ICMP6, multicast listener query v2 [gaddr ::], length 28
+19:54:17.431083 IP6 fe80::86aa:9cff:fee8:4a57 > ip6-allnodes: HBH ICMP6, multicast listener query v2 [gaddr ::], length 28
+19:54:17.459192 IP6 fe80::c124:cc7e:abaa:fee0 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+19:54:17.721775 IP 192.168.1.42.54242 > 254.red-80-58-61.staticip.rima-tde.net.domain: 54987+ PTR? 7.5.a.4.8.e.e.f.f.f.c.9.a.a.6.8.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+19:54:17.735087 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.54242: 54987 NXDomain 0/1/0 (154)
+19:54:17.735631 IP 192.168.1.42.40259 > 254.red-80-58-61.staticip.rima-tde.net.domain: 5616+ PTR? 0.e.e.f.a.a.b.a.e.7.c.c.4.2.1.c.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+19:54:17.742292 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.40259: 5616 NXDomain 0/1/0 (154)
+19:54:17.742766 IP 192.168.1.42.37965 > 254.red-80-58-61.staticip.rima-tde.net.domain: 5788+ PTR? 1.1.168.192.in-addr.arpa. (42)
+19:54:17.748683 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.37965: 5788 NXDomain 0/1/0 (119)
+19:54:17.749034 IP 192.168.1.42.42780 > 254.red-80-58-61.staticip.rima-tde.net.domain: 41636+ PTR? 1.0.0.224.in-addr.arpa. (40)
+19:54:17.852202 IP 192.168.1.37 > 239.255.255.250: igmp v2 report 239.255.255.250
+19:54:17.864465 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.42780: 41636 1/0/0 PTR all-systems.mcast.net. (75)
+19:54:17.865170 IP 192.168.1.42.60735 > 254.red-80-58-61.staticip.rima-tde.net.domain: 6138+ PTR? 6.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa. (90)
+19:54:17.878281 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.60735: 6138 NXDomain 0/1/0 (154)
+19:54:17.879191 IP 192.168.1.42 > 224.0.0.251: igmp v2 report 224.0.0.251
+19:54:18.044836 IP 192.168.1.37 > 224.0.0.251: igmp v2 report 224.0.0.251
+19:54:18.759609 IP 192.168.1.42.41934 > 254.red-80-58-61.staticip.rima-tde.net.domain: 41564+ PTR? 42.1.168.192.in-addr.arpa. (43)
+19:54:18.766686 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.41934: 41564 NXDomain 0/1/0 (120)
+19:54:18.767132 IP 192.168.1.42.53251 > 254.red-80-58-61.staticip.rima-tde.net.domain: 17022+ PTR? 254.61.58.80.in-addr.arpa. (43)
+19:54:18.772679 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.53251: 17022 1/2/0 PTR 254.red-80-58-61.staticip.rima-tde.net. (145)
+19:54:18.773410 IP 192.168.1.42.52985 > 254.red-80-58-61.staticip.rima-tde.net.domain: 53766+ PTR? 37.1.168.192.in-addr.arpa. (43)
+19:54:18.778864 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.52985: 53766 NXDomain* 0/1/0 (102)
+19:54:18.779321 IP 192.168.1.42.60339 > 254.red-80-58-61.staticip.rima-tde.net.domain: 57897+ PTR? 250.255.255.239.in-addr.arpa. (46)
+19:54:18.784656 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.60339: 57897 NXDomain 0/1/0 (103)
+19:54:18.785172 IP 192.168.1.42.43540 > 254.red-80-58-61.staticip.rima-tde.net.domain: 52272+ PTR? 251.0.0.224.in-addr.arpa. (42)
+19:54:18.790676 IP 254.red-80-58-61.staticip.rima-tde.net.domain > 192.168.1.42.43540: 52272 NXDomain 0/1/0 (99)
+19:54:22.140888 IP6 fe80::86aa:9cff:fee8:4a57 > ip6-allnodes: ICMP6, router advertisement, length 24
+19:54:22.141074 IP6 fe80::86aa:9cff:fee8:4a57 > ip6-allnodes: ICMP6, router advertisement, length 24
+
