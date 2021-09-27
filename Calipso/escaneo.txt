@@ -1,0 +1,54 @@
+11:43:23.250567 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [P.], seq 901500385:901501517, ack 2747687203, win 2160, options [nop,nop,TS val 2916995583 ecr 3522178652], length 1132
+11:43:23.250689 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [P.], seq 1132:2095, ack 1, win 2160, options [nop,nop,TS val 2916995583 ecr 3522178652], length 963
+11:43:23.295430 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [.], ack 1132, win 169, options [nop,nop,TS val 3522183653 ecr 2916995583], length 0
+11:43:23.295788 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [.], ack 2095, win 169, options [nop,nop,TS val 3522183654 ecr 2916995583], length 0
+11:43:23.295827 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [P.], seq 1:62, ack 2095, win 169, options [nop,nop,TS val 3522183654 ecr 2916995583], length 61
+11:43:23.295837 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [.], ack 62, win 2160, options [nop,nop,TS val 2916995628 ecr 3522183654], length 0
+11:43:23.420123 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [P.], seq 62:1454, ack 2095, win 169, options [nop,nop,TS val 3522183778 ecr 2916995628], length 1392
+11:43:23.420147 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [.], ack 1454, win 2160, options [nop,nop,TS val 2916995752 ecr 3522183778], length 0
+11:43:23.420177 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [P.], seq 1454:2846, ack 2095, win 169, options [nop,nop,TS val 3522183778 ecr 2916995628], length 1392
+11:43:23.420182 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [.], ack 2846, win 2152, options [nop,nop,TS val 2916995752 ecr 3522183778], length 0
+11:43:23.420189 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [P.], seq 2846:3799, ack 2095, win 169, options [nop,nop,TS val 3522183778 ecr 2916995628], length 953
+11:43:23.420191 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [.], ack 3799, win 2145, options [nop,nop,TS val 2916995753 ecr 3522183778], length 0
+11:43:23.420197 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [P.], seq 3799:4257, ack 2095, win 169, options [nop,nop,TS val 3522183778 ecr 2916995628], length 458
+11:43:23.420200 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [.], ack 4257, win 2142, options [nop,nop,TS val 2916995753 ecr 3522183778], length 0
+11:43:23.430619 IP calipso-VirtualBox.49874 > 254.red-80-58-61.staticip.rima-tde.net.domain: 11724+ A? s3-w.us-east-1.amazonaws.com. (46)
+11:43:23.430961 IP calipso-VirtualBox.39335 > 254.red-80-58-61.staticip.rima-tde.net.domain: 39238+ AAAA? s3-w.us-east-1.amazonaws.com. (46)
+11:43:23.432188 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 40751059:40753923, ack 2025012745, win 501, length 2864
+11:43:23.432206 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 2864:5728, ack 1, win 501, length 2864
+11:43:23.432301 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 5728:8592, ack 1, win 501, length 2864
+11:43:23.432312 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 8592:11456, ack 1, win 501, length 2864
+11:43:23.432407 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 11456:14320, ack 1, win 501, length 2864
+11:43:23.449832 IP 254.red-80-58-61.staticip.rima-tde.net.domain > calipso-VirtualBox.49874: 11724 1/0/0 A 52.217.92.52 (62)
+11:43:23.450386 IP 254.red-80-58-61.staticip.rima-tde.net.domain > calipso-VirtualBox.39335: 39238 0/1/0 (124)
+11:43:23.494865 IP6 fe80::86aa:9cff:fee8:4a57 > ip6-allnodes: ICMP6, router advertisement, length 24
+11:43:23.529413 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 2864, win 186, length 0
+11:43:23.529438 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 14320:17184, ack 1, win 501, length 2864
+11:43:23.529451 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 17184:20048, ack 1, win 501, length 2864
+11:43:23.530313 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 5728, win 208, length 0
+11:43:23.530325 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [P.], seq 20048:22727, ack 1, win 501, length 2679
+11:43:23.530518 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 8592, win 231, length 0
+11:43:23.531101 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 11456, win 253, length 0
+11:43:23.531380 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 14320, win 276, length 0
+11:43:23.629348 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 17184, win 298, length 0
+11:43:23.632149 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 20048, win 320, length 0
+11:43:23.634077 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [.], ack 22727, win 343, length 0
+11:43:23.695920 IP s3-1-w.amazonaws.com.https > calipso-VirtualBox.44870: Flags [P.], seq 1:787, ack 22727, win 343, length 786
+11:43:23.695941 IP calipso-VirtualBox.44870 > s3-1-w.amazonaws.com.https: Flags [.], ack 787, win 501, length 0
+11:43:23.703837 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [P.], seq 2095:2937, ack 4257, win 2160, options [nop,nop,TS val 2916996036 ecr 3522183778], length 842
+11:43:23.704004 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [P.], seq 2937:3274, ack 4257, win 2160, options [nop,nop,TS val 2916996036 ecr 3522183778], length 337
+11:43:23.705431 IP calipso-VirtualBox.48388 > lb-140-82-121-5-fra.github.com.https: Flags [P.], seq 576278479:576278610, ack 2598829622, win 501, options [nop,nop,TS val 153681075 ecr 1691038127], length 131
+11:43:23.705575 IP calipso-VirtualBox.48388 > lb-140-82-121-5-fra.github.com.https: Flags [P.], seq 131:304, ack 1, win 501, options [nop,nop,TS val 153681075 ecr 1691038127], length 173
+11:43:23.749031 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [.], ack 3274, win 169, options [nop,nop,TS val 3522184107 ecr 2916996036], length 0
+11:43:23.749046 IP lb-140-82-121-3-fra.github.com.https > calipso-VirtualBox.38866: Flags [P.], seq 4257:4318, ack 3274, win 169, options [nop,nop,TS val 3522184107 ecr 2916996036], length 61
+11:43:23.749064 IP calipso-VirtualBox.38866 > lb-140-82-121-3-fra.github.com.https: Flags [.], ack 4318, win 2160, options [nop,nop,TS val 2916996081 ecr 3522184107], length 0
+11:43:23.752313 IP lb-140-82-121-5-fra.github.com.https > calipso-VirtualBox.48388: Flags [.], ack 304, win 169, options [nop,nop,TS val 1691043611 ecr 153681075], length 0
+11:43:23.752363 IP lb-140-82-121-5-fra.github.com.https > calipso-VirtualBox.48388: Flags [P.], seq 1:49, ack 304, win 169, options [nop,nop,TS val 1691043611 ecr 153681075], length 48
+11:43:23.752368 IP calipso-VirtualBox.48388 > lb-140-82-121-5-fra.github.com.https: Flags [.], ack 49, win 501, options [nop,nop,TS val 153681122 ecr 1691043611], length 0
+11:43:23.758767 IP calipso-VirtualBox.47965 > 254.red-80-58-61.staticip.rima-tde.net.domain: 10490+ PTR? 73.1.168.192.in-addr.arpa. (43)
+11:43:23.762215 IP 254.red-80-58-61.staticip.rima-tde.net.domain > calipso-VirtualBox.47965: 10490 NXDomain 0/1/0 (120)
+11:43:23.762748 IP calipso-VirtualBox.38900 > 254.red-80-58-61.staticip.rima-tde.net.domain: 14038+ PTR? 203.84.216.52.in-addr.arpa. (44)
+11:43:23.797040 IP 254.red-80-58-61.staticip.rima-tde.net.domain > calipso-VirtualBox.38900: 14038 1/0/0 PTR s3-1-w.amazonaws.com. (78)
+11:43:23.798030 IP calipso-VirtualBox.42236 > 254.red-80-58-61.staticip.rima-tde.net.domain: 37817+ PTR? 7.5.a.4.8.e.e.f.f.f.c.9.a.a.6.8.0.0.0.0.0.0.0.0.0.0.0.0.0.8.e.f.ip6.arpa. (90)
+11:43:23.802199 IP 254.red-80-58-61.staticip.rima-tde.net.domain > calipso-VirtualBox.42236: 37817 NXDomain* 0/1/0 (149)
+11:43:23.847389 IP lb-140-82-121-5-fra.github.com.https > calipso-VirtualBox.48388: Flag
