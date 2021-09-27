@@ -71,7 +71,7 @@
 			},
 			options: {
 				title: {
-					text: 'Sniffer Raspberry Pi'
+					text: 'Calipso'
 				},
 				scales: {
 					xAxes: [{
