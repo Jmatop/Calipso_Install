@@ -1,0 +1,105 @@
+* { box-sizing: border-box;}
+
+html,body {
+  background-color: #080808;
+}
+.titulo{
+  border-bottom: 3px solid #202020;
+  /*height:5%;*/
+  width: 100%;
+  padding:5px;
+  color: white;
+  text-align:center;
+  font-weight: 900;
+  background-image: linear-gradient(to bottom, #080808 70%, #ff005b);
+}
+
+.columnas {
+  
+  margin-top: 3.5%;
+  border-right: 3px solid #202020;
+  width:20%;
+  /*height:80%;*/
+  color: white;
+  text-align:center;
+  float: left;
+  font-weight: 900;
+  background-image: linear-gradient(to right,#080808 87%, #ff005b);
+}
+
+.pantalla{
+width:80%;
+
+
+
+}
+
+#canvas {
+  width: 100%;
+  height: 600px;
+}
+
+.start{
+border-bottom: 3px solid #202020;
+position: relative;
+width:9%;
+height:50px;
+padding:5px;
+color: white;
+text-align:center;
+font-weight: 900;
+background-image: linear-gradient(to left, #080808 70%, #00ff2fb3);
+float: left;
+margin-top:4%;
+margin-left:23%;
+font-size: 20px
+
+}
+.start:active{
+border-bottom: 3px solid #202020;
+position: relative;
+width:9%;
+height:50px;
+padding:5px;
+color: white;
+text-align:center;
+font-weight: 900;
+background-image: linear-gradient(to left, #080808 70%, #ff005b);
+float: left;
+margin-top:4%;
+margin-left:23%;
+font-size: 20px;
+
+}
+.stop{
+  border-bottom: 3px solid #202020;
+position: relative;
+width:9%;
+height:50px;
+padding:5px;
+color: white;
+text-align:center;
+font-weight: 900;
+background-image: linear-gradient(to left, #080808 70%, #ff005b);
+float: left;
+margin-top:8%;
+margin-left:-9%;
+font-size: 20px
+
+}
+.stop:active{
+  border-bottom: 3px solid #202020;
+position: relative;
+width:9%;
+height:50px;
+padding:5px;
+color: white;
+text-align:center;
+font-weight: 900;
+background-image: linear-gradient(to left, #080808 70%, #00ff2fb3);
+float: left;
+margin-top:8%;
+margin-left:-9%;
+font-size: 20px
+
+}
