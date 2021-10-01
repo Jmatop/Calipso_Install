@@ -1,5 +1,5 @@
 # Calipso
-For intall all plugins execute the bash file "install.bash"
+For install all plugins execute the bash file "install.bash"
  Copy the folder "html" to the directory /var/www/*
  
  Now you can execute the bash script2 "bash script2.bash" and if you go to your local page you can see the graphic with all packets
