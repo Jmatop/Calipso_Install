@@ -1,4 +1,8 @@
 # Calipso
+
+**Calipso is a final project for 2n from ASIX at the Puig Castellar institute whose main function is to scan all the network traffic and show it in a graph and also tells you if you are being attacked and with what protocol you are being attacked.**
+
+
 **For the moment Calipso only run on Linux Desktop**
 
 For install Calipso you need first to clone the repository:
