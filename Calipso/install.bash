@@ -12,7 +12,7 @@ sudo systemctl restart apache2
 sudo ufw app list
 touch calipso 
 echo "#!/bin/bash" > calipso 
-echo "xterm -e 'cd $HOME/Calipso/ && bash script2.bash' &" > calipso 
+echo "xterm -e 'cd $HOME/Calipso/Scripts/ && bash script2.bash' &" > calipso 
 sudo chmod +x calipso
 sudo mv calipso /usr/bin
 cd ..
