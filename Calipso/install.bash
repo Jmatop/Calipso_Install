@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo apt-get -y install python 
 sudo apt -y install xterm
 sudo apt -y install php 
