@@ -15,14 +15,14 @@ sudo dnf -y install net-tools
 sudo systemctl restart httpd 
 touch calipso 
 echo "#!/bin/bash" > calipso 
-echo "xterm -e 'cd $HOME/Calipso/ && bash script2.bash' &" > calipso 
+echo "xterm -e 'cd /home/$USER/Calipso/Scripts && bash script2.bash' &" > calipso 
 sudo chmod +x calipso
 sudo mv calipso /usr/bin 
 cd .. 
 sudo mv html/* /var/www/html/
 sudo mv home/$USER/Calipso_Install/Calipso /home/$USER/Calipso
 cd $HOME
-sudo rm -R Calipso_Install 
+sudo rm -R /home/$USER/Calipso_Install 
 
 
  
