@@ -15,6 +15,7 @@ Now you need to enter on the folder for run the installer:
 cd Calipso_Install/Calipso/
 ```
 Time for run the installer:
+
 **Linux**
 ```
 bash install.bash
