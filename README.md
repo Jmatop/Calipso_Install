@@ -8,7 +8,7 @@
 
 For install Calipso you need first to clone the repository:
 
-If you dont have **Git** installed run on terminal:
+If you dont have ```git``` installed run on terminal:
 
 Linux: ```sudo apt install git ``` or in Fedora: ``` sudo dnf install git```
 
