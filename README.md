@@ -16,11 +16,11 @@ cd Calipso_Install/Calipso/
 ```
 Time for run the installer:
 
-**Linux**
+**Linux:**
 ```
 bash install.bash
 ```
-**Fedora**
+**Fedora:**
 ```
 bash installfedora.bash
 ```
