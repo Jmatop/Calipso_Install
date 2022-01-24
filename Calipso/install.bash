@@ -21,4 +21,4 @@ sudo mv /home/$USER/Calipso_Install/Calipso /home/$USER/Calipso
 cd $HOME
 sudo rm -R Calipso_Install 
 cd /home/$USER/Calipso
-xdg-open http://localhost
+clear
