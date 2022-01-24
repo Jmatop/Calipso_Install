@@ -12,7 +12,7 @@ sudo systemctl restart apache2
 sudo ufw app list
 touch calipso 
 echo '#!/bin/bash' > calipso 
-echo "xterm -e ' xdg-open http://localhost && cd $HOME/Calipso/Scripts/ && bash script2.bash' &" > calipso 
+echo "xterm -e 'cd $HOME/Calipso/Scripts/ && bash script2.bash' &" > calipso 
 sudo chmod +x calipso
 sudo mv calipso /usr/bin
 cd ..
@@ -21,5 +21,4 @@ sudo mv /home/$USER/Calipso_Install/Calipso /home/$USER/Calipso
 cd $HOME
 sudo rm -R Calipso_Install 
 cd /home/$USER/Calipso
-
-
+xdg-open http://localhost
